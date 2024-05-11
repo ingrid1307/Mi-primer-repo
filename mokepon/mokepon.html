@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOKEPON!</title>
+    <script src="./js/mokepon.js"></script>
+</head>
+<body>
+    <h1>MOKEPON! 🔥💧🌱🌪️</h1>
+
+    <section id="seleccionar-mascota">
+        <h2>Elige tu mascota</h2>
+
+        <label for="hipodoge">Hipodoge</label>
+        <input type="radio" name="mascota" id="hipodoge"/>
+
+        <label for="capipego">Capipego</label>
+        <input type="radio" name="mascota" id="capipego"/>
+
+        <label for="ratigueya">Ratigueya</label>
+        <input type="radio" name="mascota" id="ratigueya"/>
+
+
+
+        Hipodoge -> Agua
+        Capipepo -> Fuego
+        Ratigueya -> Tierra
+        Chicapi -> Aire
+        Langostelvis -> Agua y Fuego
+        Piplup -> Tierra y Aire
+        Squirtle -> Fuego y Aire
+        Charmander -> Agua y Aire
+        Arboleda -> Fuego y Tierra
+        Pandicornio -> Todo 
+
+
+        <button id="boton-mascota">Seleccionar</button>
+    </section> <!-- Esta etiqueta se utiliza para dividir el contenido en secciones -->
+
+
+    <section id="seleccionar-ataque">
+        <h2>Elige tu ataque</h2>
+
+        <p>Tu mascota <span id="mascota-jugador"></span> tiene <span>3</span> vidas</p>
+        <p>La mascota <span id="mascota-enemigo"></span>de tu enemigo tiene <span>3</span> vidas</p> <!-- El span se utiliza cuando un valor es dinamico o cambia -->
+
+        <p>
+            <button id="boton fuego">Fuego 🔥</button>
+            <button id="boton agua">Agua 💧</button>
+            <button id="boton tierra">Tierra 🌱</button>
+            <button id="boton aire">Aire 🌪️</button>
+        </p>
+    </section>
+
+    <section id="mensajes">
+        <p>Tu mascota ataco con FUEGO, la mascota del enemigo atacó con Tierra - GANASTE 🎉</p>
+    </section>
+    
+    <Section id="reiniciar">
+        <button id="boton reiniciar">Reiniciar</buttonid>
+    </Section>
+    
+</body>
+</html>
